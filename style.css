@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #080808;
+    color: white;
+    margin: 0;
+    padding: 25px 12px;
+}
+
+.form-box {
+    background: #171717;
+    width: 320px;
+    max-width: calc(100% - 40px);
+    margin: 25px auto;
+    padding: 25px 20px;
+    border: 1px solid #333;
+    border-radius: 12px;
+    box-shadow: 0 0 25px #111;
+}
+
+.top-icon {
+    width: 65px;
+    height: 65px;
+    margin: auto;
+    border-radius: 50%;
+    background: #302344;
+    color: #bb9cff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+p {
+    text-align: center;
+    color: #aaa;
+    font-size: 14px;
+}
+
+form label {
+    display: block;
+    margin-top: 17px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #ddd;
+}
+
+.input-box {
+    background: #222;
+    border: 1px solid #393939;
+    padding: 11px;
+    border-radius: 6px;
+}
+
+.input-box i {
+    width: 22px;
+}
+
+.input-box input {
+    width: 85%;
+    padding: 5px 0;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.input-box input::placeholder {
+    color: #888;
+}
+
+.blue {
+    color: #55c7ff;
+}
+
+.pink {
+    color: #ff8fc7;
+}
+
+.purple {
+    color: #bb9cff;
+}
+
+.red {
+    color: #ff5470;
+}
+
+.yellow {
+    color: #ffd447;
+}
+
+.green {
+    color: #65e6a3;
+}
+
+.orange {
+    color: #ff8b45;
+}
+
+.favourite-icons {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.favourite-icons label {
+    background: #252525;
+    border: 1px solid #383838;
+    padding: 9px 5px;
+    border-radius: 7px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.favourite-icons input {
+    display: block;
+    margin: 0 auto 8px;
+    accent-color: #bb9cff;
+}
+
+.favourite-icons i {
+    font-size: 19px;
+}
+
+.favourite-icons label:has(input:checked) {
+    border-color: #bb9cff;
+    background: #302344;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    margin-top: 24px;
+    background: #7954d8;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #6340bd;
+}
+
+.links {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.links a,
+.forgot-link a {
+    color: #bb9cff;
+    text-decoration: none;
+}
+
+.forgot-link {
+    text-align: right;
+    margin-top: 12px;
+    font-size: 13px;
+}
+
+.links a:hover,
+.forgot-link a:hover {
+    text-decoration: underline;
+}

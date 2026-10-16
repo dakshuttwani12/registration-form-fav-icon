@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<div class="form-box">
+    <div class="top-icon"><i class="fa-solid fa-user-plus"></i></div>
+    <h2>Create Account</h2>
+    <p>Sign up to get started</p>
+
+    <form action="login.html">
+        <label>Full Name</label>
+        <div class="input-box">
+            <i class="fa-solid fa-user blue"></i>
+            <input type="text" placeholder="Enter your name" required>
+        </div>
+
+        <label>Email Address</label>
+        <div class="input-box">
+            <i class="fa-solid fa-envelope pink"></i>
+            <input type="email" placeholder="Enter your email" required>
+        </div>
+
+        <label>Password</label>
+        <div class="input-box">
+            <i class="fa-solid fa-lock purple"></i>
+            <input type="password" placeholder="Create password" required>
+        </div>
+
+        <label>Favourite Icon</label>
+        <div class="favourite-icons">
+            <label><input type="radio" name="fav" required><i class="fa-solid fa-heart red"></i></label>
+            <label><input type="radio" name="fav"><i class="fa-solid fa-star yellow"></i></label>
+            <label><input type="radio" name="fav"><i class="fa-solid fa-face-smile green"></i></label>
+            <label><input type="radio" name="fav"><i class="fa-solid fa-thumbs-up blue"></i></label>
+            <label><input type="radio" name="fav"><i class="fa-solid fa-fire orange"></i></label>
+        </div>
+
+        <button type="submit"><i class="fa-solid fa-user-check"></i> Sign Up</button>
+    </form>
+
+    <div class="links">
+        <a href="forgot.html">Forgot Password?</a>
+        <p>Already have an account? <a href="login.html">Login</a></p>
+    </div>
+</div>
+
+</body>
+</html>
